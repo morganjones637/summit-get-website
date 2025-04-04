@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SummitGEN AI</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+  <script>
+    window.onload = () => {
+      tsParticles.load("tsparticles", {
+        fullScreen: { enable: false },
+        background: { color: "#0d0d1a" },
+        particles: {
+          number: { value: 100 },
+          size: { value: 2 },
+          color: { value: "#9b5de5" },
+          move: { enable: true, speed: 1 },
+          links: { enable: true, color: "#00c9ff", distance: 100 }
+        }
+      });
+    };
+  </script>
+</head>
+<body>
+  <header class="sticky-header">
+    <nav class="navbar">
+      <img src="Summit gen final logo.jpg" alt="SummitGEN AI Logo" class="logo" />
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div id="tsparticles" class="particles-bg"></div>
+    <div class="hero-content">
+      <h1>Pioneering the Future with Advanced AI Solutions</h1>
+      <p>[Your short intro goes here.]</p>
+      <a href="contact.html" class="cta-button">Get Started</a>
+    </div>
+  </main>
+
+  <div class="page-content">
+    <section class="services-section">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-box"><h3>Meta Ads Lead Generation</h3><p>We create powerful Meta Ads that target high-quality leads with precision.</p></div>
+        <div class="service-box"><h3>Advanced CRM Integration</h3><p>We implement sophisticated CRM systems to track and manage every client interaction.</p></div>
+        <div class="service-box"><h3>AI Chatbot Qualification</h3><p>Our intelligent AI chatbots engage with potential clients, qualifying leads in real-time.</p></div>
+        <div class="service-box"><h3>Seamless Call Booking</h3><p>We streamline the booking process by integrating AI with your calendar.</p></div>
+        <div class="service-box"><h3>Strategy & Consultation</h3><p>We craft a tailored strategy to fit your business goals and growth targets.</p></div>
+        <div class="service-box"><h3>Performance Tracking & Optimisation</h3><p>We continuously monitor and analyse campaign performance to maximize your ROI.</p></div>
+      </div>
+    </section>
+
+    <section class="pricing-section">
+      <h2>Pricing</h2>
+      <div class="pricing-box">
+        <h3>$499/month</h3>
+        <ul>
+          <li><strong>Targeted Meta Ads:</strong> Precision-crafted ads that reach high-quality leads</li>
+          <li><strong>Advanced CRM Integration:</strong> Track and manage every client interaction seamlessly</li>
+          <li><strong>AI Chatbot Qualification:</strong> Intelligent chatbots that engage and qualify leads in real-time</li>
+          <li><strong>Automated Call Booking:</strong> Effortless scheduling that converts leads into booked calls</li>
+          <li><strong>Performance Tracking & Optimisation:</strong> Ongoing analysis and adjustments for maximum ROI</li>
+        </ul>
+        <a href="contact.html" class="cta-button">Start Now</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
