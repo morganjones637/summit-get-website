@@ -193,3 +193,33 @@ html, body {
 .pricing-box .cta-button {
   display: inline-block;
 }
+.footer {
+  background-color: #0d0d1a;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #2f2f5e;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.footer a {
+  color: #00c9ff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #9b5de5;
+}
+
+.contact-info p {
+  margin: 0.3rem 0;
+  color: #ffffff;
+}
